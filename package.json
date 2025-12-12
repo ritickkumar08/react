@@ -1,7 +1,7 @@
 {
   "name": "the-realgame",
   "version": "1.0.0",
-  "description": "the react",
+  "description": "React.createElement => React Element React elements => Objects => HTML",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,7 +16,11 @@
     "url": "https://github.com/ritickkumar08/react/issues"
   },
   "homepage": "https://github.com/ritickkumar08/react#readme",
+  "devDependencies": {
+    "vite": "^7.2.7"
+  },
   "dependencies": {
-    "react": "^19.2.1"
+    "react": "^19.2.1",
+    "react-dom": "^19.2.3"
   }
 }
