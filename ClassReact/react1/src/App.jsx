@@ -3,6 +3,7 @@
 // import Cat from "./components/Cat"
 // import { Cow, Dog } from "./components/Dog"
 // import Ritick from "./components/Ritick"
+import EmployeeCard from "../../react2/vite-project/src/components/EmployeeCard"
 import Try from "./components/Try"
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
       <Cat/>
       <Dog/>
       <Cow/> */}
-      <Try/>
+      {/* <Try/> */}
+      <EmployeeCard name="Ritick" designation="SDE" experience="2 years"/>
     </div>
   )
 }

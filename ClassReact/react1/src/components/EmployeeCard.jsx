@@ -24,4 +24,4 @@ export default EmployeeCard
 
 // Data:
 
-// const items = ['pen', 'pencil', 'ruler', 'eras
+// const items = ['pen', 'pencil', 'ruler', 'eraser']
