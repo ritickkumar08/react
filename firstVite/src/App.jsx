@@ -3,6 +3,7 @@ import Header from './components/Header'
 import ParentComponent from './components/ParenComponent'
 import Profile from './components/ProfileComponent'
 import PackingList from './components/PackingList'
+import EventHandlers from './components/EventHandlers'
 
 // function Header() {
 //   return (
@@ -17,11 +18,12 @@ function App() {
   return (
     <>
       {/* {Header()} */}
-      <Header/>
+      {/* <Header/>
       <h1>Hello</h1>
       <ParentComponent/>
       <Profile/>
-      <PackingList />
+      <PackingList /> */}
+      <EventHandlers message="I am a hero"/>
     </>
   )
 }

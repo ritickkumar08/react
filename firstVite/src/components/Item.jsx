@@ -11,7 +11,7 @@ function Item(props) {
     // }
     return (
     //    props.isPacked ? <li>{props.name} ✔</li> : null
-       props.isPacked ? <li>{props.name} ✔</li> : <li>{props.name}</li>
+       props.isPacked ? <li>{props.data.name} ✔</li> : <li>{props.data.name}</li>
     )
    
 }
