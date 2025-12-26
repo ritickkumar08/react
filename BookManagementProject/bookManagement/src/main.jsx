@@ -6,22 +6,34 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import About from './components/About.jsx'
 import Contact from './components/Contact.jsx'
 import Error from './components/error.jsx'
+import BookList from './components/BookList.jsx'
+import BookDetails from './components/BookDetails.jsx'
 
 //create routing configuration.
 const appRouter = createBrowserRouter([
   {
     path: "/",
     element:<App />,
-    errorElement: <Error/>
+    children:[
+      {
+       index: true,
+        element: <BookList/>
+      },
+      {
+        path:"about",
+        element:<About />
+      },
+      {
+        path:"contact",
+        element:<Contact />
+      },
+      {
+        path:"book/:id",
+        element: <BookDetails/>
+      }
+    ],
+    errorElement: <Error/>,
   },
-  {
-    path:"/about",
-    element:<About />
-  },
-  {
-    path:"/contact",
-    element:<Contact />
-  }
 ])
 
 
